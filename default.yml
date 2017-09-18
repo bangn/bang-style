@@ -96,6 +96,7 @@ Metrics/BlockLength:
   ExcludedMethods: []
   Exclude:
     - "spec/**/*"
+    - "config/**/*"
 
 Metrics/CyclomaticComplexity:
   Description: >-
