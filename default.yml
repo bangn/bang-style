@@ -367,15 +367,6 @@ Style/TrailingCommaInHashLiteral:
     - no_comma
   Enabled: true
 
-Style/TrailingCommaInHashLiteral:
-  Description: 'Checks for trailing comma in array and hash literals.'
-  EnforcedStyleForMultiline: comma
-  SupportedStylesForMultiline:
-    - comma
-    - consistent_comma
-    - no_comma
-  Enabled: true
-
 Style/TrivialAccessors:
   Description: 'Prefer attr_* methods to trivial readers/writers.'
   StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#attr_family'
